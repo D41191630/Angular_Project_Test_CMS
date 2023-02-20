@@ -36,7 +36,10 @@
               "src/cms.3fc8c.js",
               "src/sitemap.xml",
               "src/netlify.toml",
-              "src/manifest.json"
+              "src/manifest.json",
+              "src/main.3fc8c.js",
+              "src/main.3fc8c.css",
+              "src/cms.3fc8c.js.license.txt"
             ],
             "styles": [
               "src/styles.scss"
