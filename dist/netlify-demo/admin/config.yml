@@ -16,10 +16,10 @@ media_folder: "src" # Media files will be stored in the repo under /uploads
 public_folder: "../src"
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
-    label_singular: "Post"
-    folder: "_posts/" # The path to the folder where the documents are stored
+  - name: "images" # Used in routes, e.g., /admin/collections/blog
+    label: "images" # Used in the UI
+    label_singular: "image"
+    folder: "_image/" # The path to the folder where the documents are stored
     editor:
       preview: false
     description: "These are your existing blog posts. Click -New Post- to create a new post."
