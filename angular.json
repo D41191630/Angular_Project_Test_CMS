@@ -26,7 +26,17 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/admin"
+              "src/admin",
+              "src/img",
+              "src/post",
+              "src/products",
+              "src/values",
+              "src/404.html",
+              "src/browserconfig.xml",
+              "src/cms.3fc8c.js",
+              "src/sitemap.xml",
+              "src/netlify.toml",
+              "src/manifest.json"
             ],
             "styles": [
               "src/styles.scss"
