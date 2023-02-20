@@ -12,27 +12,18 @@ logo_url: https://netlifyangulardemo1.netlify.app//uploads/logo.jpg
 
 # Do NOT edit below this line unless you want to change the home page
 
-media_folder: "src/img" # Media files will be stored in the repo under /uploads
-public_folder: "img"
+media_folder: "src/uploads"
+public_folder: "/uploads"
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
-    label_singular: "Post"
-    folder: src/img/
-    editor:
-      preview: false
-    description: "These are your existing blog posts. Click -New Post- to create a new post."
-    create: true # Allow users to create new documents in this collection
-    media_folder: "src/img/"
-    public_folder: "src/img/"
-    summary: "{{title}} - {{day}}/{{month}}/{{year}}"
-    preview_path: "{{year}}/{{month}}/{{day}}/{{title}}"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+name: "blog" # Used in routes, e.g., /admin/collections/blog
+label: "Blog" # Used in the UI
+folder: "blog" # The path to the folder where the documents are stored
+create: true # Allow users to create new documents in this collection
+slug: "{{day}}-{{month}}-{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
+fields: # The fields for each document, usually in front matter
+- {label: "Title", name: "title", widget: "string", required: true}
+- {label: "Blog Creater Name", name: "blogerName", widget: "string", required: true}
 
 
 
