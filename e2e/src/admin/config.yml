@@ -15,97 +15,49 @@ logo_url: https://netlifyangulardemo.netlify.app//uploads/logo.jpg
 media_folder: "src" # Media files will be stored in the repo under /uploads
 public_folder: "../src"
 
-# collections:
-#   - name: "posts" # Used in routes, e.g., /admin/collections/blog
-#     label: "Posts" # Used in the UI
-#     label_singular: "Post"
-#     folder: "_posts/" # The path to the folder where the documents are stored
-#     editor:
-#       preview: false
-#     description: "These are your existing blog posts. Click -New Post- to create a new post."
-#     create: true # Allow users to create new documents in this collection
-#     media_folder: "/uploads"
-#     public_folder: "../uploads"
-#     summary: "{{title}} - {{day}}/{{month}}/{{year}}"
-#     preview_path: "{{year}}/{{month}}/{{day}}/{{title}}"
-#     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-#     fields: # The fields for each document, usually in front matter
-#       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-#       - { label: "Title", name: "title", widget: "string" }
-#       - { label: "Publish Date", name: "date", widget: "datetime" }
-#       - {
-#           label: "Featured Image",
-#           name: "image",
-#           widget: "image",
-#           required: false,
-#           hint: "This image will appear at the top of your post in the listing but over the feature image on the article's page.",
-#         }
-#       - {
-#           label: "Title text colour over the feature image",
-#           name: "title_color",
-#           widget: "color",
-#           required: false,
-#           default: "#ffffff",
-#           hint: "The text is white by default, but you can change the colour to get more contrast against the image.",
-#         }
-#       - { label: "Caption", name: "caption", widget: "string", required: false }
-#       - {
-#           label: "Comments",
-#           name: "comments",
-#           widget: "boolean",
-#           default: false,
-#           required: false,
-#           hint: "Only if you setup your Disqus account will this allow comments. If you don't want comments for this post then turn this off.",
-#         }
-#       - {
-#           label: "Body",
-#           name: "body",
-#           widget: "markdown",
-#           hint: "You can type straight into this field and use the toolbar to select styles. You can also use markdown directly when you switch this off. In markdown mode, you can also add HTML.",
-#         }
-#       - {
-#           label: "Tags",
-#           name: "tags",
-#           widget: "select",
-#           multiple: true,
-#           max: 5,
-#           options:
-#             [
-#               "Architecture",
-#               "Art",
-#               "Books",
-#               "Buildings",
-#               "Cinema",
-#               "Culture",
-#               "Design",
-#               "Education",
-#               "Fashion",
-#               "Fonts",
-#               "Graphics",
-#               "History",
-#               "Journalism",
-#               "Landscape",
-#               "Life",
-#               "Literature",
-#               "Magazines",
-#               "Media",
-#               "Music",
-#               "Nature",
-#               "Packaging",
-#               "Personal",
-#               "Photography",
-#               "Publishing",
-#               "Retail",
-#               "Science",
-#               "Signage",
-#               "Transport",
-#               "Travel",
-#               "TV",
-#               "Work",
-#             ],
-#           required: false,
-#           hint: "By adding tags the posts can be listed together under that tag. You will need to enable the tags page (by turning on show on menu for the tags page.",
-#         }
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    label_singular: "Post"
+    folder: "_posts/" # The path to the folder where the documents are stored
+    editor:
+      preview: false
+    description: "These are your existing blog posts. Click -New Post- to create a new post."
+    create: true # Allow users to create new documents in this collection
+    media_folder: "/uploads"
+    public_folder: "../uploads"
+    summary: "{{title}} - {{day}}/{{month}}/{{year}}"
+    preview_path: "{{year}}/{{month}}/{{day}}/{{title}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Featured Image",
+          name: "image",
+          widget: "image",
+          required: false,
+          hint: "This image will appear at the top of your post in the listing but over the feature image on the article's page.",
+        }
+      - {
+          label: "Title text colour over the feature image",
+          name: "title_color",
+          widget: "color",
+          required: false,
+          default: "#ffffff",
+          hint: "The text is white by default, but you can change the colour to get more contrast against the image.",
+        }
+      - { label: "Caption", name: "caption", widget: "string", required: false }
+      - {
+          label: "Comments",
+          name: "comments",
+          widget: "boolean",
+          default: false,
+          required: false,
+          hint: "Only if you setup your Disqus account will this allow comments. If you don't want comments for this post then turn this off.",
+        }
+
 
 #   - name: "pages"
 #     label: "Pages" # Used in the UI
