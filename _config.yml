@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ''  #leave this alone
-url: "https://netlifyangulardemo1.netlify.app"   #change this to yours
+url: "https://63f375336938f54fc955d6c4--netlifyangulardemo1.netlify.app/"   #change this to yours
 repository: D41191630/Angular_Project_Test_CMS
 # twitter_username: pageboy  #change to your own twitter account
 lang: en_gb
