@@ -27,19 +27,7 @@
               "src/favicon.ico",
               "src/assets",
               "src/admin",
-              "src/img",
-              "src/post",
-              "src/products",
-              "src/values",
-              "src/404.html",
-              "src/browserconfig.xml",
-              "src/cms.3fc8c.js",
-              "src/sitemap.xml",
-              "src/netlify.toml",
-              "src/manifest.json",
-              "src/main.3fc8c.js",
-              "src/main.3fc8c.css",
-              "src/cms.3fc8c.js.license.txt"
+              "src/uploads"
             ],
             "styles": [
               "src/styles.scss"
