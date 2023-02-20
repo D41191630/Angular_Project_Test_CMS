@@ -12,8 +12,8 @@ logo_url: https://netlifyangulardemo1.netlify.app//uploads/logo.jpg
 
 # Do NOT edit below this line unless you want to change the home page
 
-media_folder: "uploads" # Media files will be stored in the repo under /uploads
-public_folder: "../uploads"
+media_folder: "src/img" # Media files will be stored in the repo under /uploads
+public_folder: "../img"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
