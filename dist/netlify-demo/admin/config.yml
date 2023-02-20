@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: D41191630/Angular_Project_Test_CMS # Path to your GitHub repository
+  branch: master # Branch to update (master by default)
+  site_domain: netlifyangulardemo1.netlify.app #Your site on netlify
+  use_graphql: true
+
+publish_mode: editorial_workflow
+show_preview_links: true
+display_url: https://netlifyangulardemo1.netlify.app/
+logo_url: https://netlifyangulardemo1.netlify.app//uploads/logo.jpg
+
+# Do NOT edit below this line unless you want to change the home page
+
+media_folder: "uploads" # Media files will be stored in the repo under /uploads
+public_folder: "../uploads"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    label_singular: "Post"
+    folder: dist/netlify-demo/uploads/
+    editor:
+      preview: false
+    description: "These are your existing blog posts. Click -New Post- to create a new post."
+    create: true # Allow users to create new documents in this collection
+    media_folder: "dist/netlify-demo/uploads/"
+    public_folder: "dist/netlify-demo/uploads/"
+    summary: "{{title}} - {{day}}/{{month}}/{{year}}"
+    preview_path: "{{year}}/{{month}}/{{day}}/{{title}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+
+
+
+
