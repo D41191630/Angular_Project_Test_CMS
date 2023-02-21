@@ -21,7 +21,6 @@
     "@angular/platform-browser-dynamic": "~11.0.5",
     "@angular/router": "~11.0.5",
     "latest": "^0.2.0",
-    "netlify-cms-app": "^2.15.72",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -32,12 +31,7 @@
     "@angular/compiler-cli": "~11.0.5",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^9.1.2",
-    "babel-preset-env": "^1.7.0",
     "codelyzer": "^6.0.0",
-    "css-loader": "^6.7.3",
-    "file-loader": "^6.2.0",
     "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.1.0",
@@ -46,10 +40,8 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.6.0",
     "protractor": "~7.0.0",
-    "style-loader": "^3.3.1",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.0.2",
-    "webpack": "^5.75.0"
+    "typescript": "~4.0.2"
   }
 }
