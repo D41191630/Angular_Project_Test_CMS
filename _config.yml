@@ -60,6 +60,11 @@ exclude: [".jekyll-cache", "Gemfile", "README.md"]
 github: [metadata]
 # if you want the blog to be below the home page through a link  - comment out the following line and then remove the hashes from the next 2 lines. In other words you want to include the blog/index and exclude the index on the home page.
 exclude: ["blog/index.html"]
+exclude:
+ - admin/index.js
+ - webpack.config.js
+ - package.json
+ - README.md
 # paginate_path: "blog/page:num"
 # exclude: ["index.html"]
 
