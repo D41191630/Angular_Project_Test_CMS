@@ -13,7 +13,7 @@ The `image` is optional and you should enter the path to it in the metadata abov
 > Here follows some more placeholder text. You can see the `markdown` when viewing this post in Atom. This is a *blockquote*.
 
 
-![Here is a book](../uploads/pages.jpg)
+![Here is a book](src/uploads/pages.jpg)
 
 By impossible of in difficulty discovered celebrated ye. Justice joy manners boy met resolve produce. Bed head loud next plan rent had easy add him. To open draw dear be by side like.
 
@@ -25,7 +25,7 @@ Of recommend residence education be on difficult repulsive offending. Judge view
 
 ## Here is a an image
 
-![Wooden Type](../uploads/log.jpg)
+![Wooden Type](src/uploads/log.jpg)
 
 She who arrival end how fertile enabled. Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use friendship she dissimilar considered expression.
 
