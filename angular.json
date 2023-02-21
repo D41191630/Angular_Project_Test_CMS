@@ -26,10 +26,10 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "admin",
-              "uploads",
-              "posts",
-              "_data"
+              "/admin",
+              "/uploads",
+              "/posts",
+              "/_data"
             ],
             "styles": [
               "src/styles.scss"
