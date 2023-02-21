@@ -12,27 +12,22 @@ logo_url: https://netlifyangulardemo1.netlify.app//uploads/logo.jpg
 
 # Do NOT edit below this line unless you want to change the home page
 
-media_folder: "uploads" # Media files will be stored in the repo under /uploads
-public_folder: "../uploads"
+media_folder: "src/uploads"
+public_folder: "/uploads"
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
-    label_singular: "Post"
-    folder: dist/netlify-demo/uploads/
-    editor:
-      preview: false
-    description: "These are your existing blog posts. Click -New Post- to create a new post."
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "uploads" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    media_folder: "dist/netlify-demo/uploads/"
-    public_folder: "dist/netlify-demo/uploads/"
-    summary: "{{title}} - {{day}}/{{month}}/{{year}}"
-    preview_path: "{{year}}/{{month}}/{{day}}/{{title}}"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
 
 
