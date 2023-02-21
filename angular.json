@@ -28,7 +28,8 @@
               "src/assets",
               "src/admin",
               "src/uploads",
-              "src/posts"
+              "src/posts",
+              "src/_data"
             ],
             "styles": [
               "src/styles.scss"
