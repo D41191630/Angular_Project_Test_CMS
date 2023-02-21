@@ -1,0 +1,13 @@
+title: NetlifyTest
+description: A sample site
+footer_text: Copyright 2021 Natha_a
+header_feature_image: ../uploads/pages.jpg
+header_text: Netlify Test
+header_text_color: "#ffffff"
+bannerheight: 20vmax
+navbarheight: 55px
+logo: /uploads/logo.jpg
+favicon: /uploads/favicon.ico
+gridlayout: false
+fixednavbar: false
+upzoom: true
