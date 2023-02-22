@@ -1,5 +1,5 @@
 ---
-title: Blog Post Two
+title: Test2
 date: 2023-02-22T09:52:17.793Z
 featuredImage: /uploads/puppy2.jpg
 ---
