@@ -7,9 +7,7 @@
   },
   "files": [
     "src/main.ts",
-    "src/polyfills.ts",
-    "src/_config.yml",
-    "src/admin"
+    "src/polyfills.ts"
   ],
   "include": [
     "src/**/*.d.ts"
