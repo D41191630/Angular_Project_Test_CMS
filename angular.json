@@ -30,7 +30,8 @@
               "src/uploads",
               "src/posts",
               "src/_data",
-              "src/_config.yml"
+              "src/_config.yml",
+              "src/test"
             ],
             "styles": [
               "src/styles.scss"
