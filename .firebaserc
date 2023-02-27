@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "netlify-demo-11ee0"
+  },
+  "targets": {
+    "netlify-demo-11ee0": {
+      "hosting": {
+        "netlifycms-test": [
+          "netlifycms-test"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
