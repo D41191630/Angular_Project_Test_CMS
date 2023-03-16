@@ -1,0 +1,225 @@
+{
+    "session_id": "123",
+    "total_number_of_units": 5,
+    "landing_page": {
+        "studentLandingPage": {
+            "title": "Simulated Mini-Sessions",
+            "description": "Since 1995, we’ve been perfecting online education to meet your needs—and the moment. We’ve helped generations of students earn their college degrees online. Are you ready to rethink the classroom?",
+            "disclaimer": "Simulated Mini-Sessions IS A TEST PRODUCT. Please note that Simulated Mini-Sessions is not final and is still undergoing development and testing before its final release. Please reach out to <a href='mailto:simulatedsessions@mail.waldenu.edu'>simulatedsessions@mail.waldenu.edu</a> for any issues.",
+            "others": {
+                "TermsConditions": [
+                    "<span for='walden_terms' class='iagree'> I Agree to <a href='https://www.waldenu.edu/legal#privacy' target='_blank'>Walden Terms & Conditions</a></span>",
+                    "<span class='iagree'>Accept <a href='https://www.soulmachines.com/privacy-policy/' target='_blank'>Privacy Terms</a> and <span (click)='endUser()'>End User Agreement - EULA</span> Allow Access to Camera, Microphone and <span (click)='usageData()'>Usage Data.</span></span>"
+                ]
+            },
+            "IntroductionVideoUrl": "https://firebasestorage.googleapis.com/v0/b/app-academic-digitalhuman-prod.appspot.com/o/common%2FStudent%2FStudent%20Demo.mp4?alt=media&token=14f972fb-59d7-408a-a1d5-4189e5bc54ee",
+            "IntroductionThumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/app-academic-digitalhuman-prod.appspot.com/o/common%2FStudent%2FStudentDemoThumbnail.png?alt=media&token=480a9602-bdb3-4e33-b170-a785381cef41",
+            "ButtonLabel": "PROCEED TO COUNSELING"
+        },
+        "facultyLandingPage": {
+            "title": "Simulated Mini-Sessions",
+            "description": "Since 1995, we’ve been perfecting online education to meet your needs-and the moment. We’ve helped generations of students earn their college degrees online. Are you ready to rethink the classroom?",
+            "disclaimer": "Simulated Mini-Sessions IS A TEST PRODUCT. Please note that Simulated Mini-Sessions is not final and is still undergoing development and testing before its final release.",
+            "others": {
+                "TermsConditions": [
+                    "<span for='walden_terms' class='iagree'> I Agree to <a href='https://www.waldenu.edu/legal#privacy' target='_blank'>Walden Terms & Conditions</a></span>"
+                ]
+            },
+            "IntroductionVideoUrl": "https://firebasestorage.googleapis.com/v0/b/app-academic-digitalhuman-prod.appspot.com/o/common%2FStudent%2FStudent%20Demo.mp4?alt=media&token=14f972fb-59d7-408a-a1d5-4189e5bc54ee",
+            "IntroductionThumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/app-academic-digitalhuman-prod.appspot.com/o/common%2FStudent%2FStudentDemoThumbnail.png?alt=media&token=480a9602-bdb3-4e33-b170-a785381cef41"
+        },
+        "listingPage": {
+            "title": "Courses Available",
+            "description": "Select a course from below to continue",
+            "disclaimer": "Simulated Mini-Sessions IS A TEST PRODUCT. Please note that Simulated Mini-Sessions is not final and is still undergoing development and testing before its final release.",
+            "others": {
+                "moreCoursesNote": "More Courses Coming Soon"
+            }
+        }
+    },
+    "course_details": [
+        {
+            "course_name": "Crisis, Trauma, and Response",
+            "course_id": "COURSE1",
+            "modules": 1,
+            "demoVideo": "https://firebasestorage.googleapis.com/v0/b/app-academic-digitalhuman-prod.appspot.com/o/masterData%2FCourses%2FCOURSE1%2FDemo.mp4?alt=media&token=fe48d56f-e7e6-4e47-bf79-aa51c44c52bd",
+            "demoThumbnail": "https://firebasestorage.googleapis.com/v0/b/app-academic-digitalhuman-prod.appspot.com/o/masterData%2FCourses%2FCOURSE1%2FThumnail.png?alt=media&token=3dba7de3-d086-4292-b4ad-c3081dae574e",
+            "module_id": "MODULE1",
+            "final_intent_delay": 7,
+            "quiz_pdf": "https://firebasestorage.googleapis.com/v0/b/app-academic-digitalhuman-prod.appspot.com/o/digitalHuman%2Fstudent%2Fquiz_pdf%2FMODULE1_Quiz.pdf?alt=media&token=ee83a81b-1e6d-4a16-a9dc-146ddaf903c7"
+        }
+    ],
+    "emotions_prameters_scors": [
+        {
+            "IsTalking": [
+                {
+                    "operator": "<",
+                    "threshold": 0.1,
+                    "type": "feedback",
+                    "message": "I am having a hard time hearing you",
+                    "title": "positive"
+                }
+            ],
+            "IsAttentive": [
+                {
+                    "operator": "<",
+                    "threshold": 0.1,
+                    "type": "feedback",
+                    "message": "Please use your attending skills",
+                    "title": "positive"
+                },
+                {
+                    "operator": ">",
+                    "threshold": 0.9,
+                    "type": "feedback",
+                    "message": "Good Attending Skills",
+                    "title": "positive"
+                }
+            ],
+            "Confusion": [
+                {
+                    "operator": "<",
+                    "threshold": 0.002,
+                    "type": "feedback",
+                    "message": "It seems like you are uncertain",
+                    "title": "positive"
+                }
+            ],
+            "IsPositive": [
+                {
+                    "operator": "<",
+                    "threshold": 0.1,
+                    "type": "feedback",
+                    "message": "Good Demonstration of Empathy.",
+                    "title": "positive"
+                },
+                {
+                    "operator": ">",
+                    "threshold": 0.9,
+                    "type": "feedback",
+                    "message": "Show more empathy.",
+                    "title": "positive"
+                }
+            ]
+        }
+    ],
+    "config": [
+        {
+            "talkButtonEnabled": true
+        }
+    ],
+    "message_panel_intent": {
+        "establishing_a_relationship-default-intent": {
+            "type": "message",
+            "title": "Establishing a relationship",
+            "description": "Please introduce yourself and inform about confidentiality.",
+            "category": "plan"
+        },
+        "establishing_a_relationship-confidentiality": {
+            "type": "message",
+            "title": "Establishing a relationship confidentiality",
+            "description": "Please gain an understanding of what brings the client in.  Express empathy by reflecting feelings. Demonstrate hearing the client by summarizing.",
+            "category": "plan"
+        },
+        "getting_to_know_the_client-default-intent": {
+            "type": "message",
+            "title": "Getting to know client",
+            "description": "Please learn more about the client and explore social connections. Reflection of content and paraphrasing can encourage the client to expand.",
+            "category": "plan"
+        },
+        "understanding_types_of_abuse-default-intent": {
+            "type": "message",
+            "title": "Understanding types of abuse",
+            "description": "Please explore the different types of abuse.",
+            "category": "plan"
+        },
+        "diagnosis-default-intent": {
+            "type": "message",
+            "title": "Diagnosis",
+            "description": "Please use reflection of content to explore the impact of the abuse.",
+            "category": "plan"
+        },
+        "understanding_the_barriers-default-intent": {
+            "type": "message",
+            "title": "Understanding the barriers",
+            "description": "Please use the different counseling skills to learn about barriers for Linda.",
+            "category": "plan"
+        },
+        "safety_planning-default-intent": {
+            "type": "message",
+            "title": "Safety planning",
+            "description": "In domestic violence situations we may only have one chance to see the client.  It is imparative to talk about safety planning.  The client may not be able to return for various reasons.  Safey is a top priority.",
+            "category": "plan"
+        },
+        "closing-default-intent": {
+            "type": "message",
+            "title": "Closing goals",
+            "description": "As the session comes to a close we want to show appreciation for the client.  It takes a lot of courage to come into counseling and share intimate details.  We also want to make sure that the client is ready to return to the world outside of the office.  Then we want to set up another session, if the client would like.  This can create a plan or instill hope or next steps for the client.",
+            "category": "plan"
+        }
+    },
+    "modules": [
+        {
+            "module_title": "Domestic Violence",
+            "title": "Overview",
+            "module_description": "Domestic violence (DV) is when one person uses abusive or coercive behavior over another partner to control them. It is NOT out of control behavior, but behavior to control another.",
+            "overview_description": [
+                
+            ],
+            "module_disclaimer": "",
+            "sub_heading": "",
+            "description": [
+               
+            ],
+            "instructions": [
+                {
+                    "instructions": [
+                        {
+                            "title": "Things to know",
+                            "description": [
+                                "Linda is a digital human trained with limited knowledge only for this module"
+                            ]
+                        },
+                        {
+                            "title": "Preparing for the session",
+                            "description": [
+                                "Chrome 96.0, Safari 15.1, Mozilla 95.0, Edge 96.0, or later versions of these web browsers are recommended.",
+                                "You need to grant the page access to the microphone and camera in order to interact with Linda.",
+                                "For Chrome and Edge browsers, disable 'Share tab audio' in the pop-up when sharing the screen for recording."
+                            ]
+                        },
+                        {
+                            "title": "During the session",
+                            "description": [
+                                "Each session has a time limit that varies based on the content of each unit. You can restart the session anytime during the interview.", 
+                                "You can view a transcript of the session under the 'Transcripts' tab.",
+                                "Make use of the Play/Pause button to pause the conversation whenever you are not interacting with the digital human.",
+                                "Collect your thoughts before asking Linda a question. Changing the question midway or using too many fillers (like umm, uh) will mostly result in undesired responses.", 
+                                "Please wait for Linda to finish responding before using your next counseling skill.",  
+                                "Avoid taking long pauses. If you need some time, utilize the Play/Pause button.",
+                                "Ensure you are on Play only when you have a clear query. It is recommended you pause the conversation at other times to avoid background noises.",
+                                "If Linda does not understand you, first try to slow down while speaking.", 
+                                "If Linda responds \"I don't understand,\" you can click on the transcript tab beside the session window to check the text version of the conversation and see if Linda understood the question correctly.",
+                                "If Linda is interrupting,  click on the hands-free icon to disable the hands-free option. Once disabled, click on Talk to Linda to talk and Linda won't interrupt you until you complete the conversation.",
+                                "If Linda responds with \"I don't know\" please try a different skill and avoid closed ended questions."
+                            ]
+                        },
+                        {
+                            "title": "After the session",
+                            "description": [
+                                "Complete the unit Checklist to determine if you've discovered all the pertinent information for the unit.",
+                                "Retake the session with Linda if you would like more practice."
+                            ]
+                        }
+                    ],
+                    "title": "Instructions"
+                }
+            ],
+            "doorway_information": {
+                "title": "",
+                "description": "",
+                "DOB": ""
+            }
+        }
+    ]
+}
